@@ -12,7 +12,7 @@
         else if(localStorage.getItem("meek_theme")=="light"){document.getElementsByTagName("html")[0].attributes.getNamedItem("data-color-mode").value="light";}
     </script>
     
-<title>Meekdai</title>
+<title>Ambop</title>
 
 </head>
 <style>
@@ -50,16 +50,15 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <body>
     <div id="header">
 <h1>
-    <img src="http://meekdai.com/avatar.jpg" class="avatar circle" id="avatarImg"><a class="blogTitle" href="https://meekdai.com">eekdai</a>
-    </h1>
+    <img src="" class="avatar circle" id="avatarImg"><a class="blogTitle"></a></h1>
 <div class="title-right">
-    <a href="/tag.html"><button id="buttonSearch" class="btn btn-invisible circle" title="搜索">
+    <a href="/blog/tag.html"><button id="buttonSearch" class="btn btn-invisible circle" title="搜索">
         <svg class="octicon" width="16" height="16" >
             <path id="pathSearch" fill-rule="evenodd"></path>
         </svg>
     </button></a>
     
-    <a href="/rss.xml" target="_blank"><button id="buttonRSS" class="btn btn-invisible circle" title="RSS">
+    <a href="/blog/rss.xml" target="_blank"><button id="buttonRSS" class="btn btn-invisible circle" title="RSS">
         <svg class="octicon" width="16" height="16" >
             <path id="pathRSS" fill-rule="evenodd"></path>
         </svg>
@@ -72,7 +71,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div style="margin-bottom: 16px;">童话是一种生活态度，仅此而已。</div>
+<div style="margin-bottom: 16px;">朝闻道</div>
 <nav class="SideNav border">
 <a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/blog%20test.html">
     <div class="d-flex flex-items-center">
@@ -88,7 +87,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </a>
 </nav>
 </div>
-    <div id="footer">Copyright © <span id="year"></span><a href="http://blog.meekdai.com"> Meekdai </a>
+    <div id="footer">Copyright © <span id="year"></span><a href="https://ambop.github.io/blog/"> Ambop </a>
 <p>
 <span id="runday"></span>Powered by <a href="https://github.com/Meekdai/Gmeek" target="_blank">Gmeek</a>
 </p>
@@ -135,7 +134,6 @@ function utterancesTheme(theme){
     iframe.contentWindow.postMessage(message, 'https://utteranc.es');
 }
 
-console.log("\n %c Gmeek last %c https://github.com/Meekdai/Gmeek \n\n", "color: #fff; background-image: linear-gradient(90deg, rgb(47, 172, 178) 0%, rgb(45, 190, 96) 100%); padding:5px 1px;", "background-image: linear-gradient(90deg, rgb(45, 190, 96) 0%, rgb(255, 255, 255) 100%); padding:5px 0;");
 </script>
 
 <script>
